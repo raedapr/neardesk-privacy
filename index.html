@@ -8,6 +8,9 @@
 <meta name="description" content="Privacy policy of NearDesk: the phone app and the Windows PC app. Local, end-to-end encrypted, no accounts, optional crash reports.">
 <meta name="referrer" content="no-referrer">
 <title>Privacy Policy · NearDesk · سياسة الخصوصية</title>
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" href="favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
   :root {
     --bg: #090D15;
@@ -34,11 +37,9 @@
     padding: 6px 0 22px;
   }
   .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: .2px; }
-  .dot {
-    width: 30px; height: 30px; border-radius: 10px; background: var(--accent-soft);
-    display: grid; place-items: center;
-  }
-  .dot::after { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
+  /* Full logo; its wordmark is white, so it is made for this dark page (hidden in print). */
+  .brand img { display: block; height: 96px; width: auto; }
+  .brand .brand-name { display: none; }
   .lang { display: flex; gap: 6px; background: var(--surface); padding: 4px; border-radius: 999px; border: 1px solid var(--line); }
   .lang a {
     color: var(--muted); text-decoration: none; padding: 6px 14px; border-radius: 999px; font-size: 14px; font-weight: 600;
@@ -82,6 +83,8 @@
     body { background: #fff; color: #000; }
     article { border: 0; }
     .lang { display: none; }
+    .brand img { display: none; }
+    .brand .brand-name { display: inline; }
     html.js-lang-en #ar, html.js-lang-ar #en { display: block; }
   }
 </style>
@@ -89,7 +92,7 @@
 <body>
 <div class="wrap">
   <header class="top">
-    <div class="brand"><span class="dot" aria-hidden="true"></span><span>NearDesk</span></div>
+    <div class="brand"><img src="neardesk-logo.png" width="102" height="96" alt="NearDesk"><span class="brand-name">NearDesk</span></div>
     <nav class="lang" aria-label="Language / اللغة">
       <a href="#en" id="btn-en" hreflang="en" lang="en">English</a>
       <a href="#ar" id="btn-ar" hreflang="ar" lang="ar">العربية</a>
@@ -98,7 +101,7 @@
 
   <article id="en" lang="en" dir="ltr">
 <h1>Privacy Policy: NearDesk (phone app and Windows PC app)</h1>
-<p><strong>Effective date: October 3, 2026</strong></p>
+<p><strong>Effective date: October 4, 2026</strong></p>
 <p>This policy covers the two apps that make up NearDesk:</p>
 <ul>
 <li>the <strong>NearDesk phone app</strong> for Android and iPhone, and</li>
@@ -200,9 +203,9 @@ your paired device, inside the encrypted connection, and never to us.</p>
 <td>Shown on the PC.</td>
 </tr>
 <tr>
-<td><strong>Device names</strong></td>
+<td><strong>Device name and system version</strong></td>
 <td>At pairing and while connected</td>
-<td>The phone identifies itself only as "Android phone" or "iPhone". The PC sends its Windows computer name so the phone can show it.</td>
+<td>The phone sends the paired PC its device name (the name set in the phone's settings, or else its model, such as "Galaxy S8" or "iPhone 13") and its system version (such as "Android 9"), so the PC can show which phone is connected. The PC keeps them with the pairing on the PC and never sends them anywhere else; they are not included in crash reports. The PC sends its Windows computer name so the phone can show it.</td>
 </tr>
 <tr>
 <td><strong>Local network addresses and Bluetooth identifiers</strong></td>
@@ -356,7 +359,7 @@ on the store listing.</p>
 
   <article id="ar" lang="ar" dir="rtl">
 <h1>سياسة الخصوصية: NearDesk (تطبيق الهاتف وتطبيق الكمبيوتر لنظام Windows)</h1>
-<p><strong>تاريخ السريان: 3 أكتوبر 2026</strong></p>
+<p><strong>تاريخ السريان: 4 أكتوبر 2026</strong></p>
 <p>تشمل هذه السياسة التطبيقين اللذين يتكوّن منهما NearDesk:</p>
 <ul>
 <li><strong>تطبيق NearDesk للهاتف</strong> لأجهزة Android وiPhone،</li>
@@ -446,9 +449,9 @@ on the store listing.</p>
 <td>تُعرض على الكمبيوتر.</td>
 </tr>
 <tr>
-<td><strong>أسماء الأجهزة</strong></td>
+<td><strong>اسم الجهاز وإصدار النظام</strong></td>
 <td>عند الربط وأثناء الاتصال</td>
-<td>يعرّف الهاتف نفسه فقط بـ"Android phone" أو "iPhone". يرسل الكمبيوتر اسمه في Windows ليعرضه الهاتف.</td>
+<td>يرسل الهاتف إلى الكمبيوتر المقترن اسم الجهاز (الاسم المضبوط في إعدادات الهاتف، أو طرازه إن لم يوجد، مثل "Galaxy S8" أو "iPhone 13") وإصدار النظام (مثل "Android 9")، ليعرض الكمبيوتر أي هاتف متصل. يحفظهما الكمبيوتر مع بيانات الاقتران على الكمبيوتر فقط ولا يرسلهما إلى أي مكان آخر، ولا يُضمّنان في تقارير الأعطال. يرسل الكمبيوتر اسمه في Windows ليعرضه الهاتف.</td>
 </tr>
 <tr>
 <td><strong>عناوين الشبكة المحلية ومعرّفات البلوتوث</strong></td>
