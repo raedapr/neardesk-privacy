@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#090D15">
+<meta name="description" content="Privacy policy of NearDesk: the phone app and the Windows PC app. Local, end-to-end encrypted, no accounts, optional crash reports.">
+<meta name="referrer" content="no-referrer">
+<title>Privacy Policy · NearDesk · سياسة الخصوصية</title>
+<style>
+  :root {
+    --bg: #090D15;
+    --surface: #111827;
+    --surface-2: #161F31;
+    --line: #243049;
+    --text: #E6E9F2;
+    --muted: #9AA3B8;
+    --accent: #5E60E0;
+    --accent-soft: rgba(94, 96, 224, 0.16);
+    --accent-text: #A9AAF5;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 18px 64px; }
+  header.top {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 6px 0 22px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: .2px; }
+  .dot {
+    width: 30px; height: 30px; border-radius: 10px; background: var(--accent-soft);
+    display: grid; place-items: center;
+  }
+  .dot::after { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
+  .lang { display: flex; gap: 6px; background: var(--surface); padding: 4px; border-radius: 999px; border: 1px solid var(--line); }
+  .lang a {
+    color: var(--muted); text-decoration: none; padding: 6px 14px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  }
+  .lang a[aria-current="true"] { background: var(--accent); color: #fff; }
+  article {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 22px;
+    padding: 26px 22px; margin-bottom: 22px;
+  }
+  @media (min-width: 640px) { article { padding: 38px 44px; } }
+  h1 { font-size: 1.65rem; line-height: 1.3; margin: 0 0 6px; }
+  h2 {
+    font-size: 1.18rem; margin: 34px 0 10px; padding-top: 18px; border-top: 1px solid var(--line);
+    color: #fff;
+  }
+  h1 + p strong { color: var(--accent-text); font-weight: 600; }
+  p, li { color: var(--text); }
+  ul { padding-inline-start: 1.3em; }
+  li { margin: 4px 0; }
+  li::marker { color: var(--accent); }
+  strong { color: #fff; }
+  a { color: var(--accent-text); text-underline-offset: 3px; }
+  a:hover { color: #fff; }
+  code {
+    font: .88em/1.4 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+    background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px;
+    word-break: break-word; unicode-bidi: isolate;
+  }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 14px 0; border-radius: 14px; border: 1px solid var(--line); }
+  table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: .94rem; }
+  th, td { text-align: start; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { background: var(--accent-soft); color: #fff; font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { white-space: nowrap; }
+  [dir="rtl"] { font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", "Noto Sans Arabic", "Geeza Pro", system-ui, sans-serif; line-height: 1.9; }
+  [dir="rtl"] td:first-child { white-space: normal; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; padding-top: 6px; }
+  /* Without JavaScript both languages are shown; with it, only the chosen one. */
+  html.js-lang-en #ar, html.js-lang-ar #en { display: none; }
+  @media print {
+    body { background: #fff; color: #000; }
+    article { border: 0; }
+    .lang { display: none; }
+    html.js-lang-en #ar, html.js-lang-ar #en { display: block; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="dot" aria-hidden="true"></span><span>NearDesk</span></div>
+    <nav class="lang" aria-label="Language / اللغة">
+      <a href="#en" id="btn-en" hreflang="en" lang="en">English</a>
+      <a href="#ar" id="btn-ar" hreflang="ar" lang="ar">العربية</a>
+    </nav>
+  </header>
+
+  <article id="en" lang="en" dir="ltr">
+<h1>Privacy Policy: NearDesk (phone app and Windows PC app)</h1>
+<p><strong>Effective date: October 3, 2026</strong></p>
+<p>This policy covers the two apps that make up NearDesk:</p>
+<ul>
+<li>the <strong>NearDesk phone app</strong> for Android and iPhone, and</li>
+<li>the <strong>NearDesk Windows PC app</strong>.</li>
+</ul>
+<p>The apps connect <strong>your</strong> phone to <strong>your</strong> PC. Everything they handle stays on
+those two devices. The only exception is optional crash reports, which are
+off unless you allow them (section 5).</p>
+<h2>1. Summary</h2>
+<ul>
+<li>No accounts, no sign-in, no servers of ours. The phone and the PC talk to
+  each other directly, over your local Wi-Fi network or over Bluetooth.</li>
+<li>Everything sent between the phone and the PC is <strong>end-to-end encrypted</strong>
+  and only readable by the two devices you paired.</li>
+<li>Messages, contacts, call history, notifications, photos, files and clipboard
+  text are processed on your devices and sent only to your paired device. We
+  (the developer) never receive them.</li>
+<li>Every phone feature that touches personal data is <strong>off until you turn it
+  on</strong>, and the system permission is requested only then.</li>
+<li><strong>Crash reports</strong> (Sentry) are sent only if you tap <strong>Allow</strong>. They contain
+  no message content, contacts or IP addresses, and you can turn them off at any
+  time.</li>
+<li>No ads, no tracking, no selling or sharing of data, and no analytics other than
+  the optional crash reports.</li>
+</ul>
+<h2>2. How the apps work</h2>
+<ul>
+<li><strong>Pairing.</strong> You pair once, by scanning the QR code shown on the PC or typing
+  its short code. The code is never sent over the network. The devices run a
+  password-authenticated key exchange (SPAKE2) and the Noise protocol, and then
+  store each other's public key. A device that was not paired cannot connect,
+  read or inject data.</li>
+<li><strong>Connection.</strong> After pairing, the phone connects to the PC on your local
+  network, or over Bluetooth Low Energy (BLE) if you turned on "Bluetooth link".
+  Every connection is authenticated and encrypted (Noise, X25519, AES-256-GCM).
+  The traffic does not go through the internet or through any server.</li>
+<li><strong>Finding the PC.</strong> The PC sends a small broadcast on your local network
+  with its address and a random-looking tag that only your paired phone can
+  recognize. With Bluetooth on, the PC advertises a rotating tag (it changes
+  every 15 minutes) and no device name. The phone never advertises.</li>
+<li><strong>No accounts.</strong> There is nothing to register, and no identifier tied to you is
+  created by us.</li>
+</ul>
+<h2>3. Data the apps handle on your devices</h2>
+<p>The apps read the data below only when you use the feature. It goes only to
+your paired device, inside the encrypted connection, and never to us.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Data</th>
+<th>When</th>
+<th>What happens to it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Files</strong> you send or receive</td>
+<td>When you send a file (or share one to the app)</td>
+<td>Sent to the other device. On the PC, received files are saved in <code dir="ltr">Downloads\NearDesk</code>. On the phone, they are saved in the app's private storage.</td>
+</tr>
+<tr>
+<td><strong>Photos and videos</strong> (gallery)</td>
+<td>When the PC's Gallery page is opened, or you pick photos to send</td>
+<td>The PC requests pages of thumbnails and previews, which it keeps in memory only. An original is saved on the PC only if you click Save/Download.</td>
+</tr>
+<tr>
+<td><strong>SMS messages</strong> (Android)</td>
+<td>Only if you turn on <strong>Messages</strong></td>
+<td>Conversations, new incoming SMS and messages you send from the PC. The PC keeps them in memory only and clears them on unpair. Sending from the PC needs your confirmation and is rate-limited. Text SMS only; MMS/RCS are not accessed.</td>
+</tr>
+<tr>
+<td><strong>Contact names</strong> (Android)</td>
+<td>Only if you turn on <strong>Show contact names</strong> (inside Messages)</td>
+<td>Display names and phone numbers, so the PC can show names instead of numbers. Sent on request, kept in memory only on the PC, never written to disk.</td>
+</tr>
+<tr>
+<td><strong>Calls and call history</strong> (Android)</td>
+<td>Only if you turn on <strong>Calls</strong></td>
+<td>Call state (with the caller's number while ringing), recent call history one page at a time, and answer, decline or call requests from the PC (calls from the PC need your confirmation). Call audio stays on the phone.</td>
+</tr>
+<tr>
+<td><strong>Notifications</strong> (Android)</td>
+<td>Only if you turn on <strong>Notifications</strong> and grant Notification access</td>
+<td>App name, title, text and icon of new notifications, so you can see, dismiss or reply on the PC. When your lock screen hides a notification's content, only the app name is sent. Apps you block are never sent. The PC keeps them in memory only.</td>
+</tr>
+<tr>
+<td><strong>PC notifications on the phone</strong></td>
+<td>Only if you turn this on in the PC app and Windows grants access</td>
+<td>New Windows notifications (app, title, text) are shown on the phone, which keeps them in memory only. On Android they also appear as a local notification.</td>
+</tr>
+<tr>
+<td><strong>Clipboard text</strong></td>
+<td>Only if you turn on <strong>Clipboard</strong> on both devices</td>
+<td>Copied text moves between the devices. There is no history: only the last text is kept in memory, to avoid echoes. On Windows, text marked by password managers as excluded is never read. On Android 10 and later and on iPhone, the clipboard is read only while the app is open or when you tap "Send clipboard".</td>
+</tr>
+<tr>
+<td><strong>Battery level and charging state</strong></td>
+<td>While connected</td>
+<td>Shown on the PC.</td>
+</tr>
+<tr>
+<td><strong>Device names</strong></td>
+<td>At pairing and while connected</td>
+<td>The phone identifies itself only as "Android phone" or "iPhone". The PC sends its Windows computer name so the phone can show it.</td>
+</tr>
+<tr>
+<td><strong>Local network addresses and Bluetooth identifiers</strong></td>
+<td>To reconnect</td>
+<td>The PC's last local IP address and Bluetooth address are stored on the phone, encrypted, as hints for reconnecting. The PC shows the phone's local IP address in its device details. Neither leaves the two devices.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Stored on the devices:</strong></p>
+<ul>
+<li>Pairing keys are kept in the Android Keystore or iOS Keychain (this device
+  only, not backed up) on the phone, and on the PC in
+  <code dir="ltr">%LOCALAPPDATA%\NearDesk\pairing.bin</code>, encrypted for your Windows user
+  (DPAPI).</li>
+<li>Settings (language, theme and your on/off choices) are stored locally.
+  Android app backup is turned off for this app.</li>
+<li>The PC writes a local diagnostic log about Bluetooth connections
+  (<code dir="ltr">%LOCALAPPDATA%\NearDesk\logs</code>, at most about 4 MB). It records events,
+  counts and timings, never message, notification or clipboard content, and
+  it is never uploaded.</li>
+</ul>
+<h2>4. Permissions and why they are needed</h2>
+<p><strong>Android</strong></p>
+<ul>
+<li><strong>Network</strong> (internet, network and Wi-Fi state, multicast). Used for the
+  local connection to your PC and to find it on your network. The internet is
+  used only to send crash reports, and only if you allowed them.</li>
+<li><strong>Camera.</strong> To scan the pairing QR code. Requested when the scanner opens.</li>
+<li><strong>Photos and videos.</strong> For the PC Gallery and for picking media to send.
+  Requested when used.</li>
+<li><strong>Bluetooth</strong> (nearby devices). Only if you turn on "Bluetooth link". On
+  Android 12 and later it is declared "never for location". Android 11 and older
+  require the location permission for Bluetooth scanning, and it is used only
+  for that.</li>
+<li><strong>SMS</strong> (read, receive, send). Only for <strong>Messages</strong>.</li>
+<li><strong>Contacts</strong> (read only). Only for <strong>Show contact names</strong>.</li>
+<li><strong>Phone and call log</strong> (phone state, call log, make and answer calls). Only for
+  <strong>Calls</strong>.</li>
+<li><strong>Notification access</strong> (a system setting you grant yourself). Only for
+  <strong>Notifications</strong>.</li>
+<li><strong>Notifications</strong> (Android 13+). To show PC notifications, the
+  "Background connection" notification and the optional "Send clipboard"
+  notification.</li>
+<li><strong>Foreground service, wake lock, ignore battery optimizations.</strong> For
+  "Background connection", which keeps the link to your PC alive while the
+  screen is off. You can turn it off in the app.</li>
+</ul>
+<p>The app does not request background location, precise location on Android 12
+and later, or advertising identifiers.</p>
+<p><strong>iPhone:</strong> Local Network (to connect to your PC), Camera (QR code), Photos
+(to send photos and show recent ones on your PC; saving to Photos only when you
+choose to), and Bluetooth (only if you turn on "Bluetooth link").</p>
+<p><strong>Windows:</strong> access to notifications (only if you turn on "PC notifications on
+the phone"), the Bluetooth adapter, the local network, the clipboard (only if
+you turn on clipboard sync) and, optionally, starting with Windows.</p>
+<h2>5. Crash reports and statistics (optional)</h2>
+<p>To find and fix crashes, the apps can send crash reports to <strong>Sentry</strong>, a
+crash-reporting service run by Functional Software, Inc. ("Sentry").</p>
+<ul>
+<li><strong>Off unless you allow it.</strong> On the PC you are asked on the onboarding page
+  "Share crash data and statistics". On the phone you are asked once in a
+  dialog. Nothing is sent before you tap <strong>Allow</strong>. You can change your choice
+  at any time: on the PC in <strong>Settings &gt; App &gt; Crash reports and statistics</strong>,
+  and on the phone with the <strong>Crash reports and statistics</strong> switch on the home
+  screen. Turning it off stops sending immediately.</li>
+<li><strong>What a report contains:</strong><ul>
+<li>the type of error and where in the app's code it happened (stack trace);</li>
+<li>a shortened, cleaned error message;</li>
+<li>the app version, operating system and version, device model, CPU type,
+  memory and screen size, and language;</li>
+<li>the link type at the time (Wi-Fi, Bluetooth or none) and, on the PC,
+  whether the paired phone is Android or iPhone;</li>
+<li>the last few screens visited (e.g. "Files") and app lifecycle events.</li>
+</ul>
+</li>
+<li><strong>Usage statistics:</strong> one anonymous "session" per use of the app (started,
+  ended normally or crashed), so we can see the crash-free rate per version.
+  To count sessions, the Sentry SDK uses a random identifier created for each
+  installation. It is not your phone's hardware or advertising ID, and it
+  changes when you reinstall.</li>
+<li><strong>What is never sent:</strong> message or SMS content, contacts or contact names,
+  phone numbers, call history, notification text, clipboard text, photos, file
+  names or contents, your name, email address, user name or device name,
+  screenshots or screen recordings, and IP or Bluetooth addresses. Before a
+  report leaves your device, the app removes quoted text, file paths, email
+  addresses, phone numbers and IP/MAC addresses from error messages. The SDK is
+  configured not to send personal data (<code dir="ltr">sendDefaultPii</code> off), and our Sentry
+  organization has <strong>"Prevent Storing of IP Addresses"</strong> enabled, so Sentry
+  does not store your IP address.</li>
+<li><strong>Where and how long:</strong> reports are sent over HTTPS to Sentry's <strong>EU data
+  region</strong> (<code dir="ltr">ingest.de.sentry.io</code>). They are kept for Sentry's data retention
+  period for our plan, and then Sentry deletes them automatically. Sentry
+  processes this data on our behalf, as our service provider. See
+  <a dir="ltr" href="https://sentry.io/privacy/">sentry.io/privacy</a>.</li>
+<li><strong>Legal basis (EEA/UK):</strong> your consent, which you can withdraw at any time
+  with the same switch.</li>
+</ul>
+<p>Builds of the app made without a Sentry key contain no active crash reporting
+at all.</p>
+<h2>6. What we do not do</h2>
+<ul>
+<li>We do not run servers that receive your data, and we have no access to your
+  messages, contacts, calls, notifications, photos, files or clipboard.</li>
+<li>No advertising, no advertising IDs and no tracking across apps or websites.</li>
+<li>We do not sell, rent or share personal data.</li>
+<li>No analytics or marketing tools other than the optional crash reports above.</li>
+<li>No cloud backup of your data by the apps.</li>
+</ul>
+<h2>7. Security</h2>
+<p>Pairing uses SPAKE2 and the Noise protocol (<code dir="ltr">Noise_XXpsk3</code>). Every later
+connection uses <code dir="ltr">Noise_KK</code> with forward secrecy and AES-256-GCM. Keys are
+stored in the Keystore or Keychain on the phone and with DPAPI on the PC.
+Pairing attempts are rate-limited. Bluetooth traffic uses the same encryption
+and does not rely on Bluetooth pairing. No system is perfectly secure, but the
+apps are designed so that only your two paired devices can read your data.</p>
+<h2>8. Your choices, retention and deletion</h2>
+<ul>
+<li><strong>Turn features off</strong> at any time in the apps. The phone stops sending that
+  data. What the PC kept in memory is cleared when the feature goes off, on
+  unpair, or at the latest when the PC app closes.</li>
+<li><strong>Unpair</strong> (on the phone or the PC) deletes the pairing keys on both
+  devices and clears the data kept in memory (messages, contacts,
+  notifications, gallery thumbnails).</li>
+<li><strong>Uninstalling the phone app</strong> deletes its local data on Android (settings,
+  pairing record and received files). On iPhone, iOS may keep the Keychain
+  entry with the pairing key after uninstalling, so unpair first to remove it.</li>
+<li><strong>On the PC,</strong> unpairing deletes the keys. Files you received stay in
+  <code dir="ltr">Downloads\NearDesk</code> until you delete them. To remove the app's
+  settings and logs, delete the <code dir="ltr">%LOCALAPPDATA%\NearDesk</code> folder.</li>
+<li><strong>Crash reports:</strong> turn them off to stop sending. Reports already sent are
+  deleted automatically at the end of Sentry's retention period. They are
+  not linked to your identity, so we usually cannot find "your" reports. If
+  you have a request, contact us (section 11).</li>
+<li>Depending on where you live (for example under the GDPR), you may have the
+  right to access, correct or delete personal data, to object or restrict
+  processing, to withdraw consent and to complain to a data-protection
+  authority.</li>
+</ul>
+<h2>9. Children</h2>
+<p>The apps are not directed at children under 13 (or the minimum age in your
+country), and we do not knowingly collect personal data from children. The
+apps collect no personal data for us, apart from the optional, anonymous crash
+reports.</p>
+<h2>10. Changes to this policy</h2>
+<p>If the apps' handling of data changes, we will update this policy and its
+effective date, and, where the change is significant, tell you in the app or
+on the store listing.</p>
+<h2>11. Contact</h2>
+<p>Questions or requests about privacy: <strong><a dir="ltr" href="mailto:raed1dev@gmail.com">raed1dev@gmail.com</a></strong></p>
+  </article>
+
+  <article id="ar" lang="ar" dir="rtl">
+<h1>سياسة الخصوصية: NearDesk (تطبيق الهاتف وتطبيق الكمبيوتر لنظام Windows)</h1>
+<p><strong>تاريخ السريان: 3 أكتوبر 2026</strong></p>
+<p>تشمل هذه السياسة التطبيقين اللذين يتكوّن منهما NearDesk:</p>
+<ul>
+<li><strong>تطبيق NearDesk للهاتف</strong> لأجهزة Android وiPhone،</li>
+<li>و<strong>تطبيق NearDesk للكمبيوتر</strong> بنظام Windows.</li>
+</ul>
+<p>يربط التطبيقان <strong>هاتفك</strong> بـ<strong>كمبيوترك</strong>. كل ما يعالجانه يبقى على هذين الجهازين. الاستثناء الوحيد تقارير
+الأعطال الاختيارية، وهي متوقفة ما لم تسمح بها (القسم 5).</p>
+<h2>1. ملخّص</h2>
+<ul>
+<li>لا حسابات، ولا تسجيل دخول، ولا خوادم لنا. يتصل الهاتف والكمبيوتر ببعضهما مباشرة عبر شبكة Wi-Fi المحلية أو
+  عبر البلوتوث.</li>
+<li>كل ما يُرسل بين الهاتف والكمبيوتر <strong>مشفّر من طرف إلى طرف</strong>، ولا يقرؤه إلا الجهازان اللذان ربطتهما.</li>
+<li>الرسائل وجهات الاتصال وسجل المكالمات والإشعارات والصور والملفات ونص الحافظة تُعالَج على أجهزتك، ولا تُرسل إلا
+  إلى جهازك المقترن. لا نستلمها نحن (المطوّر) أبدًا.</li>
+<li>كل ميزة في الهاتف تتعامل مع بيانات شخصية <strong>متوقفة حتى تفعّلها</strong>، ولا يُطلب إذن النظام إلا حينها.</li>
+<li><strong>تقارير الأعطال</strong> (Sentry) لا تُرسل إلا إذا ضغطت <strong>سماح</strong>. لا تحتوي على محتوى الرسائل أو جهات الاتصال أو
+  عناوين IP، ويمكنك إيقافها في أي وقت.</li>
+<li>لا إعلانات، ولا تتبّع، ولا بيع للبيانات أو مشاركتها، ولا أدوات تحليلات غير تقارير الأعطال الاختيارية.</li>
+</ul>
+<h2>2. كيف يعمل التطبيقان</h2>
+<ul>
+<li><strong>الربط.</strong> تربط الجهازين مرة واحدة بمسح رمز QR الظاهر على الكمبيوتر أو بكتابة رمزه القصير. لا يُرسل الرمز عبر
+  الشبكة أبدًا. يُجري الجهازان تبادل مفاتيح موثَّقًا بكلمة مرور (SPAKE2) وبروتوكول Noise، ثم يحفظ كلٌّ منهما المفتاح
+  العام للآخر. لا يستطيع أي جهاز غير مقترن الاتصال أو قراءة البيانات أو حقنها.</li>
+<li><strong>الاتصال.</strong> بعد الربط يتصل الهاتف بالكمبيوتر عبر شبكتك المحلية، أو عبر بلوتوث منخفض الطاقة (BLE) إذا فعّلت
+  «اتصال البلوتوث». كل اتصال موثَّق ومشفّر (Noise وX25519 وAES-256-GCM)، ولا تمر البيانات عبر الإنترنت أو أي خادم.</li>
+<li><strong>العثور على الكمبيوتر.</strong> يبثّ الكمبيوتر رسالة صغيرة على شبكتك المحلية فيها عنوانه ووسم يبدو عشوائيًا لا يتعرّف
+  عليه إلا هاتفك المقترن. وعند تفعيل البلوتوث يعلن الكمبيوتر عن وسم متغيّر (كل 15 دقيقة) دون اسم الجهاز. الهاتف لا
+  يعلن عن نفسه أبدًا.</li>
+<li><strong>لا حسابات.</strong> لا يوجد ما تسجّل فيه، ولا ننشئ أي معرّف مرتبط بك.</li>
+</ul>
+<h2>3. البيانات التي يعالجها التطبيقان على أجهزتك</h2>
+<p>لا يقرأ التطبيقان البيانات التالية إلا عند استخدامك الميزة. تُرسل فقط إلى جهازك المقترن داخل الاتصال المشفّر،
+ولا تصل إلينا أبدًا.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>البيانات</th>
+<th>متى</th>
+<th>ماذا يحدث لها</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>الملفات</strong> التي ترسلها أو تستلمها</td>
+<td>عند إرسال ملف (أو مشاركته مع التطبيق)</td>
+<td>تُرسل إلى الجهاز الآخر. على الكمبيوتر تُحفظ الملفات المستلمة في <code dir="ltr">Downloads\NearDesk</code>، وعلى الهاتف في مساحة التطبيق الخاصة.</td>
+</tr>
+<tr>
+<td><strong>الصور والفيديوهات</strong> (المعرض)</td>
+<td>عند فتح صفحة المعرض على الكمبيوتر أو اختيار صور لإرسالها</td>
+<td>يطلب الكمبيوتر صفحات من الصور المصغّرة والمعاينات ويحتفظ بها في الذاكرة فقط. لا يُحفظ الأصل على الكمبيوتر إلا إذا ضغطت حفظ/تنزيل.</td>
+</tr>
+<tr>
+<td><strong>الرسائل النصية SMS</strong> (Android)</td>
+<td>فقط إذا فعّلت <strong>الرسائل</strong></td>
+<td>المحادثات والرسائل الواردة الجديدة والرسائل التي ترسلها من الكمبيوتر. يحتفظ بها الكمبيوتر في الذاكرة فقط ويمسحها عند إلغاء الاقتران. الإرسال من الكمبيوتر يتطلب تأكيدك وله حدّ أقصى. الرسائل النصية فقط، ولا يتم الوصول إلى MMS أو RCS.</td>
+</tr>
+<tr>
+<td><strong>أسماء جهات الاتصال</strong> (Android)</td>
+<td>فقط إذا فعّلت <strong>إظهار أسماء جهات الاتصال</strong> (داخل الرسائل)</td>
+<td>الأسماء وأرقام الهواتف، ليعرض الكمبيوتر الأسماء بدل الأرقام. تُرسل عند الطلب، ويحتفظ بها الكمبيوتر في الذاكرة فقط ولا يكتبها على القرص أبدًا.</td>
+</tr>
+<tr>
+<td><strong>المكالمات وسجلها</strong> (Android)</td>
+<td>فقط إذا فعّلت <strong>المكالمات</strong></td>
+<td>حالة المكالمة (مع رقم المتصل أثناء الرنين)، وسجل المكالمات الأخير صفحةً صفحة، وطلبات الرد أو الرفض أو الاتصال من الكمبيوتر (الاتصال من الكمبيوتر يتطلب تأكيدك). صوت المكالمة يبقى على الهاتف.</td>
+</tr>
+<tr>
+<td><strong>الإشعارات</strong> (Android)</td>
+<td>فقط إذا فعّلت <strong>الإشعارات</strong> ومنحت إذن الوصول إلى الإشعارات</td>
+<td>اسم التطبيق والعنوان والنص والأيقونة للإشعارات الجديدة، لتراها أو تتجاهلها أو ترد عليها من الكمبيوتر. إذا كانت شاشة القفل تخفي محتوى الإشعار فلا يُرسل إلا اسم التطبيق. لا تُرسل إشعارات التطبيقات التي تحظرها. يحتفظ بها الكمبيوتر في الذاكرة فقط.</td>
+</tr>
+<tr>
+<td><strong>إشعارات الكمبيوتر على الهاتف</strong></td>
+<td>فقط إذا فعّلتها في تطبيق الكمبيوتر وسمح Windows بذلك</td>
+<td>تظهر إشعارات Windows الجديدة (التطبيق والعنوان والنص) على الهاتف الذي يحتفظ بها في الذاكرة فقط. على Android تظهر أيضًا كإشعار محلي.</td>
+</tr>
+<tr>
+<td><strong>نص الحافظة</strong></td>
+<td>فقط إذا فعّلت <strong>الحافظة</strong> على الجهازين</td>
+<td>ينتقل النص المنسوخ بين الجهازين. لا يوجد سجل: يُحتفظ بآخر نص فقط في الذاكرة لمنع التكرار. على Windows لا يُقرأ أبدًا النص الذي تستثنيه برامج إدارة كلمات المرور. على Android 10 وما بعده وعلى iPhone لا تُقرأ الحافظة إلا والتطبيق مفتوح أو عند الضغط على «إرسال الحافظة».</td>
+</tr>
+<tr>
+<td><strong>مستوى البطارية وحالة الشحن</strong></td>
+<td>أثناء الاتصال</td>
+<td>تُعرض على الكمبيوتر.</td>
+</tr>
+<tr>
+<td><strong>أسماء الأجهزة</strong></td>
+<td>عند الربط وأثناء الاتصال</td>
+<td>يعرّف الهاتف نفسه فقط بـ"Android phone" أو "iPhone". يرسل الكمبيوتر اسمه في Windows ليعرضه الهاتف.</td>
+</tr>
+<tr>
+<td><strong>عناوين الشبكة المحلية ومعرّفات البلوتوث</strong></td>
+<td>لإعادة الاتصال</td>
+<td>يُخزَّن على الهاتف، مشفّرًا، آخر عنوان IP محلي للكمبيوتر وعنوان البلوتوث الخاص به كتلميحات لإعادة الاتصال. يعرض الكمبيوتر عنوان IP المحلي للهاتف في تفاصيل الجهاز. لا يغادر أيٌّ منهما الجهازين.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ما يُخزَّن على الأجهزة:</strong></p>
+<ul>
+<li>مفاتيح الربط محفوظة على الهاتف في Android Keystore أو iOS Keychain (لهذا الجهاز فقط، دون نسخ احتياطي)، وعلى
+  الكمبيوتر في <code dir="ltr">%LOCALAPPDATA%\NearDesk\pairing.bin</code> مشفّرة لمستخدم Windows (DPAPI).</li>
+<li>الإعدادات (اللغة والمظهر واختيارات التفعيل والإيقاف) تُحفظ محليًا. النسخ الاحتياطي لتطبيقات Android متوقف لهذا التطبيق.</li>
+<li>يكتب الكمبيوتر سجلّ تشخيص محليًا عن اتصالات البلوتوث (<code dir="ltr">%LOCALAPPDATA%\NearDesk\logs</code>، نحو 4 ميغابايت كحد
+  أقصى). يسجّل الأحداث والأعداد والتوقيتات، ولا يسجّل أبدًا محتوى الرسائل أو الإشعارات أو الحافظة، ولا يُرفع إلى
+  أي مكان.</li>
+</ul>
+<h2>4. الأذونات ولماذا نحتاجها</h2>
+<p><strong>Android</strong></p>
+<ul>
+<li><strong>الشبكة</strong> (الإنترنت، وحالة الشبكة وWi-Fi، والبث المتعدد). للاتصال المحلي بكمبيوترك والعثور عليه في شبكتك. لا
+  يُستخدم الإنترنت إلا لإرسال تقارير الأعطال، وفقط إذا سمحت بها.</li>
+<li><strong>الكاميرا.</strong> لمسح رمز QR للربط، وتُطلب عند فتح الماسح.</li>
+<li><strong>الصور والفيديوهات.</strong> لمعرض الكمبيوتر ولاختيار وسائط لإرسالها، وتُطلب عند الاستخدام.</li>
+<li><strong>البلوتوث</strong> (الأجهزة القريبة). فقط إذا فعّلت «اتصال البلوتوث». على Android 12 وما بعده مُعلن «ليس لتحديد
+  الموقع». يتطلب Android 11 وما قبله إذن الموقع لمسح البلوتوث، ولا يُستخدم إلا لذلك.</li>
+<li><strong>الرسائل SMS</strong> (قراءة واستلام وإرسال). فقط لميزة <strong>الرسائل</strong>.</li>
+<li><strong>جهات الاتصال</strong> (قراءة فقط). فقط لـ<strong>إظهار أسماء جهات الاتصال</strong>.</li>
+<li><strong>الهاتف وسجل المكالمات</strong> (حالة الهاتف وسجل المكالمات وإجراء المكالمات والرد عليها). فقط لميزة <strong>المكالمات</strong>.</li>
+<li><strong>الوصول إلى الإشعارات</strong> (إعداد في النظام تمنحه بنفسك). فقط لميزة <strong>الإشعارات</strong>.</li>
+<li><strong>الإشعارات</strong> (Android 13 وما بعده). لعرض إشعارات الكمبيوتر وإشعار «الاتصال في الخلفية» وإشعار «إرسال الحافظة» الاختياري.</li>
+<li><strong>خدمة المقدّمة، ومنع السكون، وتجاهل تحسين البطارية.</strong> لميزة «الاتصال في الخلفية» التي تُبقي الاتصال بكمبيوترك
+  والشاشة مطفأة، ويمكنك إيقافها من التطبيق.</li>
+</ul>
+<p>لا يطلب التطبيق الموقع في الخلفية، ولا الموقع الدقيق على Android 12 وما بعده، ولا معرّفات الإعلانات.</p>
+<p><strong>iPhone:</strong> الشبكة المحلية (للاتصال بكمبيوترك)، والكاميرا (رمز QR)، والصور (لإرسال الصور وعرض الحديثة منها على
+كمبيوترك، والحفظ في الصور فقط عندما تختار ذلك)، والبلوتوث (فقط إذا فعّلت «اتصال البلوتوث»).</p>
+<p><strong>Windows:</strong> الوصول إلى الإشعارات (فقط إذا فعّلت «إشعارات الكمبيوتر على الهاتف»)، ومحوّل البلوتوث، والشبكة
+المحلية، والحافظة (فقط إذا فعّلت مزامنة الحافظة)، والتشغيل مع Windows اختياريًا.</p>
+<h2>5. تقارير الأعطال والإحصاءات (اختيارية)</h2>
+<p>لاكتشاف الأعطال وإصلاحها، يمكن للتطبيقين إرسال تقارير أعطال إلى <strong>Sentry</strong>، وهي خدمة لتقارير الأعطال تديرها شركة
+Functional Software, Inc. ("Sentry").</p>
+<ul>
+<li><strong>متوقفة ما لم تسمح بها.</strong> على الكمبيوتر تُسأل في صفحة الإعداد الأولي «مشاركة بيانات الأعطال والإحصاءات»، وعلى
+  الهاتف تُسأل مرة واحدة في نافذة. لا يُرسل شيء قبل أن تضغط <strong>سماح</strong>. يمكنك تغيير اختيارك في أي وقت: على الكمبيوتر
+  من <strong>الإعدادات &gt; التطبيق &gt; تقارير الأعطال والإحصاءات</strong>، وعلى الهاتف من مفتاح <strong>تقارير الأعطال والإحصاءات</strong> في
+  الشاشة الرئيسية. إيقافها يوقف الإرسال فورًا.</li>
+<li><strong>ما يحتويه التقرير:</strong><ul>
+<li>نوع الخطأ وموضعه في كود التطبيق (تتبّع المكدس)؛</li>
+<li>رسالة خطأ مختصرة ومنظّفة؛</li>
+<li>إصدار التطبيق، ونظام التشغيل وإصداره، وطراز الجهاز، ونوع المعالج، وحجم الذاكرة والشاشة، واللغة؛</li>
+<li>نوع الاتصال وقتها (Wi-Fi أو بلوتوث أو لا شيء)، وعلى الكمبيوتر نوع الهاتف المقترن (Android أو iPhone)؛</li>
+<li>آخر الشاشات التي زرتها (مثل «الملفات») وأحداث دورة حياة التطبيق.</li>
+</ul>
+</li>
+<li><strong>إحصاءات الاستخدام:</strong> «جلسة» مجهولة واحدة لكل استخدام للتطبيق (بدأت، انتهت طبيعيًا، أو انتهت بعطل)، لنعرف نسبة
+  الاستخدام بلا أعطال لكل إصدار. لعدّ الجلسات تستخدم حزمة Sentry معرّفًا عشوائيًا يُنشأ لكل تثبيت. ليس معرّف
+  جهازك أو معرّف الإعلانات، ويتغيّر عند إعادة التثبيت.</li>
+<li><strong>ما لا يُرسل أبدًا:</strong> محتوى الرسائل، وجهات الاتصال أو أسماؤها، وأرقام الهواتف، وسجل المكالمات، ونص الإشعارات،
+  ونص الحافظة، والصور، وأسماء الملفات أو محتواها، واسمك أو بريدك الإلكتروني أو اسم المستخدم أو اسم الجهاز، ولقطات
+  الشاشة أو تسجيلاتها، وعناوين IP أو البلوتوث. قبل أن يغادر التقرير جهازك يزيل التطبيق من رسائل الخطأ النصوص
+  المقتبسة ومسارات الملفات وعناوين البريد وأرقام الهواتف وعناوين IP وMAC. الحزمة مضبوطة على عدم إرسال البيانات
+  الشخصية (<code dir="ltr">sendDefaultPii</code> متوقف)، ومؤسستنا في Sentry مفعّل فيها <strong>«منع تخزين عناوين IP»</strong>، فلا تخزّن Sentry
+  عنوان IP الخاص بك.</li>
+<li><strong>أين ولكم من الوقت:</strong> تُرسل التقارير عبر HTTPS إلى <strong>منطقة بيانات Sentry في الاتحاد الأوروبي</strong>
+  (<code dir="ltr">ingest.de.sentry.io</code>). تُحفظ طوال مدة الاحتفاظ بالبيانات في خطتنا لدى Sentry، ثم تحذفها Sentry تلقائيًا. تعالج
+  Sentry هذه البيانات نيابةً عنا بصفتها مزوّد خدمة. راجع <a dir="ltr" href="https://sentry.io/privacy/">sentry.io/privacy</a>.</li>
+<li><strong>الأساس القانوني (المنطقة الاقتصادية الأوروبية والمملكة المتحدة):</strong> موافقتك، ويمكنك سحبها في أي وقت بالمفتاح نفسه.</li>
+</ul>
+<p>النسخ المبنيّة دون مفتاح Sentry لا تحتوي على أي تقارير أعطال فعّالة.</p>
+<h2>6. ما لا نفعله</h2>
+<ul>
+<li>لا نشغّل خوادم تستلم بياناتك، وليس لدينا وصول إلى رسائلك أو جهات اتصالك أو مكالماتك أو إشعاراتك أو صورك أو
+  ملفاتك أو حافظتك.</li>
+<li>لا إعلانات، ولا معرّفات إعلانية، ولا تتبّع عبر التطبيقات أو المواقع.</li>
+<li>لا نبيع البيانات الشخصية ولا نؤجّرها ولا نشاركها.</li>
+<li>لا أدوات تحليلات أو تسويق غير تقارير الأعطال الاختيارية أعلاه.</li>
+<li>لا ينسخ التطبيقان بياناتك احتياطيًا إلى السحابة.</li>
+</ul>
+<h2>7. الأمان</h2>
+<p>يستخدم الربط SPAKE2 وبروتوكول Noise (<code dir="ltr">Noise_XXpsk3</code>)، وكل اتصال لاحق يستخدم <code dir="ltr">Noise_KK</code> مع سرية أمامية
+وAES-256-GCM. المفاتيح محفوظة في Keystore أو Keychain على الهاتف، وبتقنية DPAPI على الكمبيوتر. محاولات الربط لها حدّ
+أقصى. اتصال البلوتوث يستخدم التشفير نفسه ولا يعتمد على اقتران البلوتوث. لا يوجد نظام آمن تمامًا، لكن التطبيقين
+مصمّمان بحيث لا يقرأ بياناتك إلا جهازاك المقترنان.</p>
+<h2>8. خياراتك والاحتفاظ والحذف</h2>
+<ul>
+<li><strong>أوقف أي ميزة</strong> في أي وقت من التطبيقين، وعندها يتوقف الهاتف عن إرسال بياناتها. ما احتفظ به الكمبيوتر في الذاكرة
+  يُمسح عند إيقاف الميزة أو عند إلغاء الاقتران، أو على الأكثر عند إغلاق تطبيق الكمبيوتر.</li>
+<li><strong>إلغاء الاقتران</strong> (من الهاتف أو الكمبيوتر) يحذف مفاتيح الربط على الجهازين ويمسح البيانات المحفوظة في الذاكرة
+  (الرسائل وجهات الاتصال والإشعارات والصور المصغّرة).</li>
+<li><strong>إلغاء تثبيت تطبيق الهاتف</strong> يحذف بياناته المحلية على Android (الإعدادات وسجل الربط والملفات المستلمة). على
+  iPhone قد يحتفظ النظام بعنصر Keychain الذي فيه مفتاح الربط بعد إلغاء التثبيت، لذا ألغِ الاقتران أولًا لحذفه.</li>
+<li><strong>على الكمبيوتر</strong> يحذف إلغاء الاقتران المفاتيح. تبقى الملفات المستلمة في <code dir="ltr">Downloads\NearDesk</code> حتى تحذفها.
+  لحذف إعدادات التطبيق وسجلاته احذف المجلد <code dir="ltr">%LOCALAPPDATA%\NearDesk</code>.</li>
+<li><strong>تقارير الأعطال:</strong> أوقفها لإيقاف الإرسال. التقارير المرسلة سابقًا تُحذف تلقائيًا بنهاية مدة الاحتفاظ لدى Sentry.
+  وهي غير مرتبطة بهويتك، لذا لا نستطيع عادةً معرفة التقارير الخاصة بك. إن كان لديك طلب فتواصل معنا (القسم 11).</li>
+<li>بحسب مكان إقامتك (مثل اللائحة العامة لحماية البيانات GDPR) قد يحق لك الوصول إلى بياناتك الشخصية أو تصحيحها أو
+  حذفها، والاعتراض على المعالجة أو تقييدها، وسحب الموافقة، وتقديم شكوى إلى سلطة حماية البيانات.</li>
+</ul>
+<h2>9. الأطفال</h2>
+<p>التطبيقان غير موجّهين للأطفال دون 13 عامًا (أو الحد الأدنى للعمر في بلدك)، ولا نجمع عن قصد بيانات شخصية من
+الأطفال. لا يجمع التطبيقان أي بيانات شخصية لنا سوى تقارير الأعطال الاختيارية المجهولة.</p>
+<h2>10. التغييرات على هذه السياسة</h2>
+<p>إذا تغيّرت طريقة تعامل التطبيقين مع البيانات فسنحدّث هذه السياسة وتاريخ سريانها، وإن كان التغيير جوهريًا فسنخبرك
+داخل التطبيق أو في صفحة المتجر.</p>
+<h2>11. التواصل</h2>
+<p>للأسئلة أو الطلبات المتعلقة بالخصوصية: <strong><a dir="ltr" href="mailto:raed1dev@gmail.com">raed1dev@gmail.com</a></strong></p>
+  </article>
+
+  <footer>NearDesk · Privacy Policy · سياسة الخصوصية</footer>
+</div>
+<script>
+  (function () {
+    var root = document.documentElement;
+    function apply() {
+      var h = (location.hash || "").toLowerCase();
+      var lang = h === "#ar" ? "ar" : h === "#en" ? "en"
+        : ((navigator.language || "").toLowerCase().indexOf("ar") === 0 ? "ar" : "en");
+      root.className = "js-lang-" + lang;
+      root.lang = lang;
+      document.getElementById("btn-en").setAttribute("aria-current", lang === "en");
+      document.getElementById("btn-ar").setAttribute("aria-current", lang === "ar");
+      window.scrollTo(0, 0);
+    }
+    window.addEventListener("hashchange", apply);
+    apply();
+  })();
+</script>
+</body>
+</html>
